@@ -1,0 +1,7 @@
+# HTML 메모
+
+- <link type = "text/css" rel="stylesheet" href="style.css">
+
+<style>
+  @import url("style.css");
+</style>
