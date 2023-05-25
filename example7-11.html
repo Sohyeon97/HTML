@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+    function Student(name, score) {
+        this.univ = "한국대학";
+        this.name = name;
+        this.score = score;
+        this.getGrade = function() {
+        if (this.score > 80) return "A";
+    else if (this.score > 60) return "B";
+    else return "F"; }
+    }
+    </script>
+</head>
+<body>
+<h3>000000000000</h3> <hr>
+<script>
+    let kitae = new Student("황기태",75);
+    let jaemoon = new Student("이재문",93);
+
+    document.write(kitae.univ + "의" + kitae.name, kitae.score, kitae.getGrade);
+    document.write(jaemoon.univ + "의" + jaemoon.name, jaemoon.score, jaemoon.getGrade);
+</script>
+</body>
+</html>
